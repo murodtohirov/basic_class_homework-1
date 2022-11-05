@@ -9,12 +9,11 @@ create an object named "person" whose name is "Ali"
 class Person {
   String name = '';
 
-  Person({required String name}) {
+  Person(String name) {
     this.name = name;
   }
 }
 
 void main() {
-  Person person = Person(name: 'Ali');
-  print(person.name);
+  Person person = Person('Ali');
 }

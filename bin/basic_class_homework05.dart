@@ -14,15 +14,14 @@ class Person {
   String p2 = '';
   String p3 = '';
 
-  Person({required String p1, required String p2, required String p3}) {
+  Person(String p1, String p2, String p3) {
     this.p1 = p1;
     this.p2 = p2;
     this.p3 = p3;
   }
-
 }
 
 void main() {
-  Person name = Person(p1: 'Anvar', p2: 'Shavkat', p3: 'Jasur');
+  Person name = Person('Anvar', 'Shavkat', 'Jasur');
   print(name.p2);
 }
