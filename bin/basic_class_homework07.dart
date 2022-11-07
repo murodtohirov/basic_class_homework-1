@@ -12,6 +12,6 @@ class Person {
 
 void main() {
   Person person = Person();
-  // print(person.age);
-  // print(person.name);
+  print(person.age);
+  print(person.name);
 }
