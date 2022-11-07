@@ -6,12 +6,18 @@ create an object named "person" whose name is "Ali", age is "25"
 */
 
 class Person {
-  String name = 'Ali';
-  int age = 25;
+String name = 'Ali';
+int age = 25;
+Person(String name,int age){
+  this.name=name;
+  this.age=age;
+}
+
 }
 
 void main() {
-  Person person = Person();
-  print(person.age);
-  print(person.name);
+Person person=Person('Ali', 25);
+print(person.age);
+print(person.name);
+
 }
