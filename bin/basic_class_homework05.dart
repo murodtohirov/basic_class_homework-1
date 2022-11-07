@@ -8,20 +8,19 @@ Create an object named "p2" whose name is "Shavkat"
 Create an object named "p3" whose name is "Jasur"
 
 */
-
 class Person {
-  String p1 = '';
-  String p2 = '';
-  String p3 = '';
-
-  Person(String p1, String p2, String p3) {
-    this.p1 = p1;
-    this.p2 = p2;
-    this.p3 = p3;
+  String name = '';
+  
+  Person (String name){
+   this.name=name;
   }
 }
 
 void main() {
-  Person name = Person('Anvar', 'Shavkat', 'Jasur');
-  print(name.p2);
+  Person p1 = Person('Ali');
+  Person p2 = Person('Shavkat');
+  Person p3 = Person('Jasur');
+  print(p1.name);
+  print(p2.name);
+  print(p3.name);
 }
